@@ -1,0 +1,73 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        
+        th {
+            background-color: #3498db;
+            color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        
+        .custom-button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .update-button {
+            background-color: #27ae60; 
+        }
+       
+        .delete-button {
+            background-color: #e74c3c; 
+        }
+        
+        .t-button {
+            background-color: #E6D757; 
+        }
+        
+        .custom-button:hover {
+            background-color: #2980b9;
+        }
+        
+        .update-button:hover {
+            background-color: #277C60; 
+        }
+       
+        .delete-button:hover {
+            background-color: #8C4C3C; 
+        }
+        
+                
+        .t-button:hover {
+            background-color: #877F33; 
+        }
+        
+
+        

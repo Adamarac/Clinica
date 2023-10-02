@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Fomulário de paciente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./CSS/AdicionarPaciente.css">
+    </head>
+    <body>
+         <div class="container">
+        <h1>Formulário de Paciente</h1>
+        <form action="AdicionaPaciente" method="post">
+            <label for="rg">RG (Chave Primária)</label>
+            <input type="text" id="rg" name="rg" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" required>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="end" name="end" required>
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="text" id="dataNasc" name="dataNasc" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <label for="medicoResponsavel">Médico Responsável</label>
+            <input type="text" id="medRes" name="medRes" required>
+
+            <label for="quarto">Número do Quarto</label>
+            <input type="text" id="quarto" name="quarto" required>
+
+            <label for="andar">Andar do Quarto</label>
+            <input type="text" id="andar" name="andar" required>
+            
+            <label for="andar">Hora de visita</label>
+            <input type="text" id="horaVis" name="horaVis" required>
+
+            <button type="submit">Enviar</button>
+            <button type="button" class="back" onclick="window.history.back()">Voltar</button>
+        </form>
+    </div>
+    </body>
+</html>

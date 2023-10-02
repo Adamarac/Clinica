@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Médico</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/AdicionarMedico.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Médico</h1>
+        <form action="AdicionaMedico" method="post">
+            <label for="crm">CRM (Chave Primária)</label>
+            <input type="text" id="crm" name="crm" required>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="especialidade">Especialidade</label>
+            <input type="text" id="especialidade" name="especialidade" required>
+
+            <label for="salario">Salário</label>
+            <input type="text" id="salario" name="salario" required>
+
+            <button type="submit">Enviar</button>
+            <button type="button" class="back" onclick="window.history.back()">Voltar</button>
+        </form>
+    </div>
+</body>
+</html>
