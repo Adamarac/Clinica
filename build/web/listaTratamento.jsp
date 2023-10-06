@@ -32,6 +32,7 @@
         <td><%= tratamento.getNome_trat() %></td>
         <td>
             <form action="atualizaTratamento.jsp" method="post">
+                <input type="hidden" id="Id" name="Id" value="<%= tratamento.getId() %>">
                 <input type="hidden" id="IdMed" name="IdMed" value="<%= tratamento.getIdMed() %>">
                 <input type="hidden" id="IdPac" name="IdPac" value="<%= tratamento.getIdPac() %>">
                 <input type="hidden"  id="Nome_trat" name="Nome_trat" value="<%= tratamento.getNome_trat() %>">

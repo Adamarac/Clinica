@@ -11,6 +11,8 @@
     <div class="container">
         <h1>Formulário de Tratamento</h1>
         <form action="atualizaTratamento" method="post">
+            <input type="hidden" id="id" name="id" value="<%= request.getParameter("Id") %>" readonly>
+            
             <label for="idPac">ID do Paciente</label>
             <input type="text" id="idPac" name="idPac" value="<%= request.getParameter("IdPac") %>" readonly>
 

@@ -28,6 +28,7 @@ public class atualizaTratamento extends HttpServlet {
 
         request.setCharacterEncoding("UTF-8");
 
+        int id = Integer.parseInt(request.getParameter("id"));
         int idMedico = Integer.parseInt(request.getParameter("idMed"));
         int idPaciente = Integer.parseInt(request.getParameter("idPac"));
         String obs = request.getParameter("nome_trat");
@@ -41,6 +42,7 @@ public class atualizaTratamento extends HttpServlet {
         }
 
         beanTratamento trat = new beanTratamento();
+        trat.setId(id);
         trat.setIdMed(idMedico);
         trat.setIdPac(idPaciente);
         trat.setNome_trat(obs);
